@@ -1,3 +1,4 @@
+import 'package:check_list/HomePage.dart';
 import 'package:check_list/views/widgets/navigation_bar/navigation_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -7,9 +8,9 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(children: [
-        NavigationBar()
-      ],),
+      body: HomePage()
+      //Column(children: [
+      //  NavigationBar()],),
     );
   }
 }
